@@ -39,7 +39,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             Smda1ui2Theme {
-                // A surface container using the 'background' color from the theme
+                
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
@@ -58,7 +58,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
     ) {
         // Background image
         Image(
-            painter = painterResource(id = R.drawable.background_image), // Replace with your background image's resource ID
+            painter = painterResource(id = R.drawable.background_image), 
             contentDescription = null,
             modifier = Modifier.fillMaxSize(),
             contentScale = ContentScale.Crop
